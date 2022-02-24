@@ -12,7 +12,7 @@ public class HelloController {
 	
     @GetMapping("/hello")
     public String hello() {
-        return "Container Cluster POC!!!";
+        return "Container Cluster POC!!! uat";
     }
     
     @GetMapping("/nlp")
